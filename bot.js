@@ -7,7 +7,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`hi`, {type: "PLAYING"});
+  client.user.setActivity(`براء`, {type: "PLAYING"});
 });
 onst Discord = require("discord.js");
 const ytdl = require("ytdl-core");
