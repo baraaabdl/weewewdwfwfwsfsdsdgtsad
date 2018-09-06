@@ -1,15 +1,4 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-   console.log(`----------------`);
-        console.log(`---------------`);
-      console.log(`ON ${client.guilds.size} Servers `);
-    console.log(`---------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`براء`, {type: "PLAYING"});
-});
-onst Discord = require("discord.js");
+const Discord = require("discord.js");
 const ytdl = require("ytdl-core");
 const { Client, Util } = require('discord.js');
 const getYoutubeID = require('get-youtube-id');
@@ -274,9 +263,4 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
    
-
-
-
-
-
 client.login(process.env.BOT_TOKEN);
